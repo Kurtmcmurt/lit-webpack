@@ -1,0 +1,32 @@
+{
+  "name": "getting-started",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "css-loader": "^5.2.4",
+    "html-loader": "^2.1.2",
+    "mini-css-extract-plugin": "^1.5.0",
+    "postcss-loader": "^5.2.0",
+    "postcss-nested": "^5.0.5",
+    "sass": "^1.32.11",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.1",
+    "lit": "^2.0.0-rc.1",
+    "lit-element": "^2.4.0",
+    "lit-element-router": "^2.0.3"
+  }
+}
